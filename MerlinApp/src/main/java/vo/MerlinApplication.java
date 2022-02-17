@@ -34,5 +34,6 @@ public class MerlinApplication {
 			}
 		}
 		System.out.println(decipheredMessage);
+		headerReader.close();
 	}
 }
